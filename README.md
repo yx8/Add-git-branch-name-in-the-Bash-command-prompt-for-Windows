@@ -22,14 +22,22 @@ C:\cygwin64\home\[your system username]
 
 - Scroll Down to the bottom of those codes inside.  
 - Copy and paste these two line of codes below on the bottom of the codes inside the `.bashrc` file.
+
+```sh
+
+
+parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/' ; }
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+
+```
+
+
 ![2](https://github.com/yx8/Add-git-branch-name-in-the-Bash-command-prompt-for-Windows/blob/master/img/2.png?raw=true)
 
 - Save and close. 
 
-```sh
-parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/' ; }
-export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
-```
+
 
 That's it, now when you are accessing the Github directory on Windows in the Bash command prompt it will show the Git branch name just like it displays in Linux/ Mac OS. With the `Master` or the branch names in brackets.
 
