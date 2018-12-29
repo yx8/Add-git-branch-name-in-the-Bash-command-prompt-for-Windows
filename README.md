@@ -4,7 +4,7 @@ Tutorial on adding git branch name in the Bash command prompt for Windows
 # If you are working with Git in Windows and you want to show the git branch name in the Bash command prompt. Here is the solution to do it. 
 
 
-First of all, it's good to use a Linux like Bash command prompt tool in Windows, here I will use the Cygwin as an example, you can use most of the Linux/ Mac OS command in this tool.
+First of all, it's good to use a Linux like Bash command prompt tool in Windows, here I will use the Cygwin as an example, this tool also supports most of the Linux/ Mac OS command, that's right you can type Linux/ Mac OS commands on Windows Bash prompt.
 
 - We can download Cygwin from their official website
   [https://cygwin.com/install.html](https://cygwin.com/install.html) 
