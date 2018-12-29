@@ -21,7 +21,7 @@ C:\cygwin64\home\[your system username]
 - Then we open up this file `.bashrc` with a text editor.
 
 - Scroll Down to the bottom of those codes inside.  
-- Copy and paste these two line of codes below on the bottom of the codes inside the `.bashrc` file.
+- Copy these two line of codes below  and paste on the bottom of the codes inside the `.bashrc` file.
 
 ```sh
 
