@@ -1,4 +1,4 @@
-# Add-git-branch-name-in-the-Bash-command-prompt-for-Windows
+# Add git branch name in the Bash command prompt for Windows
 Tutorial on adding git branch name in the Bash command prompt for Windows
 
 # If you are working with Git in Windows and you want to show the git branch name in the Bash command prompt. Here is the solution to do it. 
